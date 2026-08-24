@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Politique de confidentialité — Évoala</title>
+<style>
+  :root {
+    --violet: #6C3FBF;
+    --violet-fonce: #2E1A47;
+    --texte: #2A2730;
+    --texte-clair: #6B6572;
+    --fond: #FBF9F6;
+    --bordure: #E5E1EC;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--fond);
+    color: var(--texte);
+    line-height: 1.6;
+  }
+  header {
+    background: linear-gradient(135deg, var(--violet-fonce), var(--violet));
+    color: white;
+    padding: 48px 24px 40px;
+    text-align: center;
+  }
+  header .logo {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    opacity: 0.85;
+    margin-bottom: 12px;
+  }
+  header h1 {
+    margin: 0 0 8px;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  header p {
+    margin: 0;
+    font-size: 14px;
+    opacity: 0.85;
+  }
+  main {
+    max-width: 720px;
+    margin: -20px auto 60px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(46, 26, 71, 0.08);
+    padding: 40px 32px;
+  }
+  h2 {
+    color: var(--violet-fonce);
+    font-size: 18px;
+    margin-top: 36px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid var(--bordure);
+    padding-bottom: 8px;
+  }
+  h2:first-of-type { margin-top: 0; }
+  p, li {
+    font-size: 14.5px;
+    color: var(--texte);
+  }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  .intro {
+    font-size: 13.5px;
+    color: var(--texte-clair);
+    background: var(--fond);
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin-bottom: 8px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0 20px;
+    font-size: 13px;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--bordure);
+    vertical-align: top;
+  }
+  th {
+    background: var(--fond);
+    color: var(--violet-fonce);
+    font-weight: 700;
+  }
+  a { color: var(--violet); }
+  footer {
+    text-align: center;
+    font-size: 12px;
+    color: var(--texte-clair);
+    padding-bottom: 40px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Évoala</div>
+  <h1>Politique de confidentialité</h1>
+  <p>Dernière mise à jour : 19 août 2026</p>
+</header>
+
+<main>
+  <p class="intro">
+    La présente politique de confidentialité décrit la manière dont Évoala collecte, utilise, conserve
+    et protège les données personnelles des utilisateurs (Clients et Professionnels), conformément
+    au Règlement (UE) 2016/679 du 27 avril 2016 (« RGPD ») et à la loi française « Informatique et Libertés ».
+  </p>
+
+  <h2>1. Responsable du traitement</h2>
+  <p>
+    Jonathan Dogliotti, exploitant l'application Évoala<br>
+    SIRET : 108 484 353 00017<br>
+    Adresse : 42 traverse de la Baume Loubière, 13013 Marseille, France<br>
+    Email : john.d.g.l.t@gmail.com
+  </p>
+  <p>
+    Compte tenu de la taille de la structure, aucun Délégué à la Protection des Données (DPO) n'est
+    désigné à ce stade ; toute demande relative aux données personnelles doit être adressée à l'email ci-dessus.
+  </p>
+
+  <h2>2. Données collectées et finalités</h2>
+  <table>
+    <tr><th>Catégorie</th><th>Exemples</th><th>Finalité</th></tr>
+    <tr><td>Identification</td><td>Nom, prénom, email, téléphone</td><td>Créer et gérer le compte utilisateur</td></tr>
+    <tr><td>Professionnelles (Pros)</td><td>SIRET, activité, tarif, attestation RC Pro</td><td>Vérifier l'éligibilité, afficher le profil public</td></tr>
+    <tr><td>Localisation</td><td>Position GPS, adresse</td><td>Mise en relation géographique</td></tr>
+    <tr><td>Financières</td><td>Identifiant Stripe (aucune donnée bancaire stockée par Évoala)</td><td>Traitement des paiements</td></tr>
+    <tr><td>Contenus</td><td>Avis, photos, vidéos, messages</td><td>Fil d'actualité et messagerie</td></tr>
+    <tr><td>Techniques</td><td>Jeton de notification (FCM)</td><td>Notifications push</td></tr>
+  </table>
+
+  <h2>3. Base légale des traitements</h2>
+  <ul>
+    <li><strong>Exécution du contrat</strong> : création de compte, mise en relation, gestion des missions et des paiements.</li>
+    <li><strong>Consentement</strong> : géolocalisation précise, notifications push, publication de contenu.</li>
+    <li><strong>Intérêt légitime</strong> : amélioration du service, prévention de la fraude, modération.</li>
+    <li><strong>Obligation légale</strong> : conservation de certaines données à des fins comptables et fiscales.</li>
+  </ul>
+
+  <h2>4. Destinataires et sous-traitants</h2>
+  <ul>
+    <li>Google / Firebase (hébergement, base de données, authentification, stockage, notifications)</li>
+    <li>Stripe Payments Europe, Ltd. (traitement des paiements et versements)</li>
+    <li>Le Professionnel et le Client concernés par une même mission, dans la limite des informations nécessaires à sa réalisation</li>
+  </ul>
+  <p>Évoala ne vend ni ne loue les données personnelles des utilisateurs à des tiers à des fins commerciales.</p>
+
+  <h2>5. Durée de conservation</h2>
+  <ul>
+    <li>Données de compte actif : pendant toute la durée d'utilisation du service.</li>
+    <li>Données de compte après suppression : jusqu'à 5 ans pour les données comptables/fiscales, le reste supprimé ou anonymisé sous 30 jours.</li>
+    <li>Géolocalisation précise : non conservée au-delà de la session.</li>
+    <li>Contenus publiés : conservés tant que le compte est actif, sauf suppression par l'auteur ou modération.</li>
+  </ul>
+
+  <h2>6. Droits des utilisateurs</h2>
+  <p>
+    Chaque utilisateur dispose des droits d'accès, de rectification, d'effacement, de limitation, de
+    portabilité, d'opposition et de retrait du consentement sur ses données personnelles.
+  </p>
+  <p>
+    Ces droits peuvent être exercés en écrivant à <a href="mailto:john.d.g.l.t@gmail.com">john.d.g.l.t@gmail.com</a>,
+    ou directement depuis l'application via la fonctionnalité de suppression de compte. Une réponse est
+    apportée dans un délai maximum d'un mois.
+  </p>
+  <p>
+    En cas de difficulté, l'utilisateur peut introduire une réclamation auprès de la
+    <a href="https://www.cnil.fr" target="_blank" rel="noopener">CNIL</a>.
+  </p>
+
+  <h2>7. Sécurité des données</h2>
+  <p>
+    Évoala met en œuvre les mesures techniques et organisationnelles appropriées pour protéger les
+    données personnelles (règles d'accès strictes sur la base de données, chiffrement des communications).
+  </p>
+
+  <h2>8. Géolocalisation</h2>
+  <p>
+    La géolocalisation est utilisée pour la mise en relation entre Clients et Professionnels à proximité.
+    Elle est activée uniquement avec le consentement explicite de l'utilisateur, et peut être désactivée
+    à tout moment dans les réglages du téléphone.
+  </p>
+
+  <h2>9. Mineurs</h2>
+  <p>L'application n'est pas destinée aux personnes de moins de 18 ans.</p>
+
+  <h2>10. Modification de la politique</h2>
+  <p>
+    La présente politique peut être mise à jour à tout moment. Les utilisateurs sont invités à
+    consulter régulièrement ce document.
+  </p>
+
+  <h2>Contact</h2>
+  <p>Pour toute question : <a href="mailto:john.d.g.l.t@gmail.com">john.d.g.l.t@gmail.com</a></p>
+</main>
+
+<footer>
+  © 2026 Évoala — Jonathan Dogliotti, Entrepreneur individuel
+</footer>
+
+</body>
+</html>
